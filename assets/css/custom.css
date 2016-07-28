@@ -1,0 +1,24 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.panel-event .panel-body {
+    padding: 0;
+}
+
+.panel-event .panel-heading h3 {
+    display: inline;
+}
+
+.panel-event .panel-body img {
+    width: 100%;
+}
+
+.panel-event .panel-body .panel-content {
+    padding: 15px;
+}
