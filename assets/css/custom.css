@@ -1,10 +1,81 @@
-.navbar {
-    margin-bottom: 0;
+body{
+    background-color: #c0edff;
+    /*
+     background-color: #c6f2ff;
+     background-color: skyblue;
+    */
 }
 
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(7, 53, 99, 0.91);
+  
+    
+}
+
+
+.navbar-default{
+
+    border:none;
+    border-radius: 0px;
+    
+
+}
+
+.navbar-default .navbar-nav>li>a:visited{
+     color:#d3e4f3;
+}
+
+
+.navbar .navbar-brand{
+
+        color:#d3e4f3;   
+
+}
+
+.navbar .navbar-brand:hover{
+
+        color:white;   
+
+}
+
+.navbar-default .navbar-nav>li>a{
+
+         color:#d3e4f3;   
+
+}
+
+.navbar-default .navbar-nav>li>a:hover{ 
+
+          color:white;  
+
+}
+
+.navbar-default .navbar-nav>li>a:active{
+        color: palegoldenrod;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        background-color:rgb(135, 206, 235);
+        color: black;   
+}
+
+
+
 .jumbotron {
-    padding-top: 15px;
-    padding-bottom: 20px;
+        background-color: skyblue;
+
+        background-size: 100%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        
+        background:url("../../assets/img/ev4.jpg");
+        background-repeat: no-repeat;
+       
+        
+        border-bottom: 10px solid rgb(18, 67, 111);
+      
 }
 
 .panel-event .panel-body {
@@ -21,4 +92,18 @@
 
 .panel-event .panel-body .panel-content {
     padding: 15px;
+}
+
+
+
+.bs-docs-footer{
+    padding: 3%;
+    background-color: rgba(7, 53, 99, 0.91);
+}
+
+.sidebarPanel{
+    padding:2px;
+    height: 600px;
+    background-color:rgba(13, 98, 185, 0.1);
+
 }
