@@ -61,7 +61,10 @@ body{
         color: black;   
 }
 
-
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:visited{
+        
+        color: black;   
+}
 
 .jumbotron {
         background-color: skyblue;
@@ -105,5 +108,21 @@ body{
     padding:2px;
     height: 600px;
     background-color:rgba(13, 98, 185, 0.1);
+    clear: both;
 
+}
+
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+   background-color:#046890;
+   color: #d4ebf5;
+}
+.dropdown-menu{
+    background-color:skyblue;
+   
+}
+
+.dropdown-menu>li>a:hover{
+     background-color: #aae8fd;
 }
