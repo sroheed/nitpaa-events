@@ -126,3 +126,30 @@ body{
 .dropdown-menu>li>a:hover{
      background-color: #aae8fd;
 }
+
+
+
+.navbar-default .navbar-toggle{
+    border-color:rgba(0, 191, 255, 0.68);
+}
+.navbar-default .navbar-toggle:hover{
+    background-color:#c0edff;
+    border-color:white;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: deepskyblue;
+}
+
+.navbar-default .navbar-toggle:focus{
+    background-color: #c0edff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color: rgb(243, 249, 255);
+}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+    color: palegoldenrod;
+}
