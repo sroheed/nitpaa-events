@@ -67,6 +67,7 @@ body{
 }
 
 .jumbotron {
+    margin-top: 3.9%;
         background-color: skyblue;
 
         background-size: 100%;
@@ -77,7 +78,7 @@ body{
         background-repeat: no-repeat;
        
         
-        border-bottom: 10px solid rgb(18, 67, 111);
+        border-bottom: 2px solid rgb(18, 67, 111);
       
 }
 
