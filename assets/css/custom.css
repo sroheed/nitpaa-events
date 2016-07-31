@@ -145,11 +145,14 @@ body{
     background-color: #c0edff;
 }
 
-.navbar-default .navbar-nav .open .dropdown-menu>li>a{
-    color: rgb(243, 249, 255);
+
+.navbar-default .navbar-nav .open {
+    background-color: skyblue;
 }
 
-
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color: black;
+}
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
-    color: palegoldenrod;
+   background-color: #aae8fd;   
 }
