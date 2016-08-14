@@ -1,14 +1,89 @@
+body{
+    background-color: #c0edff;
+    /*
+     background-color: #c6f2ff;
+     background-color: skyblue;
+    */
+}
+
+
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    background-color: rgba(7, 53, 99, 0.91);
+  
+    
+}
+
+
+.navbar-default{
+
+    border:none;
+    border-radius: 0px;
+    
+
+}
+
+.navbar-default .navbar-nav>li>a:visited{
+     color:#d3e4f3;
+}
+
+
+.navbar .navbar-brand{
+
+        color:#d3e4f3;   
+
+}
+
+.navbar .navbar-brand:hover{
+
+        color:white;   
+
+}
+
+.navbar-default .navbar-nav>li>a{
+
+         color:#d3e4f3;   
+
+}
+
+.navbar-default .navbar-nav>li>a:hover{ 
+
+          color:white;  
+
+}
+
+.navbar-default .navbar-nav>li>a:active{
+        color: palegoldenrod;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        background-color:rgb(135, 206, 235);
+        color: black;   
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:visited{
+        
+        color: black;   
 }
 
 .jumbotron {
-    padding-top: 15px;
-    padding-bottom: 20px;
+    margin-top: 3.9%;
+        background-color: skyblue;
+
+        background-size: 100%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        
+        background:url("../../assets/img/ev4.jpg");
+        background-repeat: no-repeat;
+       
+        
+        border-bottom: 2px solid rgb(18, 67, 111);
+      
 }
 
 .panel-event .panel-body {
-    padding: 0;
+    padding: 10;
 }
 
 .panel-event .panel-heading h3 {
@@ -22,3 +97,65 @@
 .panel-event .panel-body .panel-content {
     padding: 15px;
 }
+
+
+
+.bs-docs-footer{
+    padding: 3%;
+    background-color: rgba(7, 53, 99, 0.91);
+}
+
+.sidebarPanel{
+    padding:2px;
+    height: 600px;
+    background-color:rgba(13, 98, 185, 0.1);
+    clear: both;
+
+}
+
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+   background-color:#046890;
+   color: #d4ebf5;
+}
+.dropdown-menu{
+    background-color:skyblue;
+   
+}
+
+.dropdown-menu>li>a:hover{
+     background-color: #aae8fd;
+}
+
+
+
+.navbar-default .navbar-toggle{
+    border-color:rgba(0, 191, 255, 0.68);
+}
+.navbar-default .navbar-toggle:hover{
+    background-color:#c0edff;
+    border-color:white;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: deepskyblue;
+}
+
+.navbar-default .navbar-toggle:focus{
+    background-color: #c0edff;
+}
+
+
+.navbar-default .navbar-nav .open {
+    background-color: skyblue;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color: black;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+   background-color: #aae8fd;   
+}
+
+
